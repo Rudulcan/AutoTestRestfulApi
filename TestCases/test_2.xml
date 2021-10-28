@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<test-config>
+    <property name="request.type">POST</property>
+    <property name="request.method">coupon</property>
+    <property name="request.header">{'Content-Type': 'application/json'}</property>
+    <property name="request.params">{'Accept': '*/*', 'Connection': 'keep-alive'}</property>
+    <property name="request">{
+  "idCoupon": "2018456725076647",
+  "idNumber": "string",
+  "idType": 0
+}
+    </property>
+    <property name="response">{
+    "errorCode": 3,
+    "errorDescription": "Cupon vencido",
+    "description": null,
+    "startDate": null,
+    "endDate": null,
+    "useLimitPromovar": null,
+    "availableUses": null,
+    "preprinted": null,
+    "reservedField1": null,
+    "reservedField2": null,
+    "reservedField3": null,
+    "reservedField4": null,
+    "reservedField5": null,
+    "grantedInPos": null,
+    "promovarData": null
+}
+    </property>
+</test-config>

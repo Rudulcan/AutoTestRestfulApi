@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<test-config>
+    <property name="request.type">GET</property>
+    <property name="request.method">version</property>
+    <property name="request.header">{'Content-Type': 'application/json'}</property>
+    <property name="request.params">{'Accept': '*/*', 'Connection': 'keep-alive'}</property>
+    <property name="request"></property>
+    <property name="response">1.0.0</property>
+</test-config>

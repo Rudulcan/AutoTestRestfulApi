@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<test-config>
+    <property name="service.name">Tomcat9</property>
+    <property name="service.url">http://localhost:8090/CouponAuthRestful</property>
+    <property name="driver">SQL Server Native Client 11.0</property>
+    <property name="connection.serverName">WMXRG250386-LA1</property>
+    <property name="connection.database">coupon</property>
+    <property name="connection.username">flxdp</property>
+    <property name="connection.password">flxdp</property>
+    <property name="backup.filename">backupCopupon.bak</property>
+    <property name="backup.filepath">C:\NCR\Coupon\</property>
+    <property name="restore.filename">mybackup.bak</property>
+    <property name="restore.filepath">C:\NCR\\Coupon</property>
+    <property name="restore.datafullfilepath">C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\coupon.mdf</property>
+    <property name="restore.logfullfilepath">C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\coupon.ldf</property>
+    <property name="testOutput.filename">TestOutput.txt</property>
+</test-config>

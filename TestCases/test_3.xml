@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<test-config>
+    <property name="request.type">PUT</property>
+    <property name="request.method">coupon/active</property>
+    <property name="request.header">{'Content-Type': 'application/json'}</property>
+    <property name="request.params">{'Accept': '*/*', 'Connection': 'keep-alive'}</property>
+    <property name="request">{
+  "branch": "string",
+  "coupons": [
+    {
+      "idCoupon": "3973338782238"
+    }
+  ],
+  "date": "20201010",
+  "idNumber": "string",
+  "idType": 0,
+  "pos": "string",
+  "promoVarActivation": 300583,
+  "sequence": "string",
+  "type": "sale"
+}
+    </property>
+    <property name="response">{
+    "errorCode": 1,
+    "errorDescription": "COUPON IN EXISTENTE"
+}
+    </property>
+</test-config>
