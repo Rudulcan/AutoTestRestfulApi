@@ -24,7 +24,7 @@ These are python scripts so:
 
 ## How to Run 
 * Open a CMD or terminal with administrative privileges (windows)/ root (linux)
-* Call the main,py script like this:
+* Call the main.py script like this:
   * python main.py --c
     
     --c will stop the service, load DB amd run testcases, you can also type--complete
