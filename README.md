@@ -8,7 +8,7 @@ Python scripts to run automated tests on restful apis using pytest to compare ex
 ## Installation
 These are python scripts so:
 
- - First need to install Python 3:  [Named Link](https://www.python.org/downloads/ "Python Download page")
+ - First, you need to install Python 3:  [Named Link](https://www.python.org/downloads/ "Python Download page")
  - ###Install Dependencies 
    - pip install pyodbc
    - pip install requests
@@ -24,7 +24,7 @@ These are python scripts so:
 
 ## How to Run 
 * Open a CMD or terminal with administrative privileges (windows)/ root (linux)
-* Call the main,py script like this:
+* Call the main.py script like this:
   * python main.py --c
     
     --c will stop the service, load DB amd run testcases, you can also type--complete
